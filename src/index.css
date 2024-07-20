@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+html,body{
+  overflow-x:hidden
+}
+
+.button_border {
+  border-radius: 50%;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+  background: linear-gradient(
+    111.93deg,
+    rgba(14, 26, 45, 0.24) -1.4%,
+    rgba(17, 30, 50, 0.38) 104.96%
+  );
+  /* backdrop-filter: blur(26px); */
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-home{
+  background-image: url('./assets/valorant-phoenix-flare-orb-77mcvogi9s3hmmia.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
