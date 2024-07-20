@@ -2,7 +2,7 @@ import React from 'react'
 
 const Welcome = () => {
   return (
-    <div className='px-4 py-7 rounded-3xl flex flex-col gap-4 items-center inset-0 bg-white bg-opacity-20 backdrop-blur-md
+    <div className='px-4 py-7 rounded-3xl flex flex-col gap-4 items-center inset-0 bg-white bg-opacity-5 backdrop-blur-md
     shadow-2xl cursor-pointer' >
             
             <div className='text-3xl font-semibold text-white text-center'>

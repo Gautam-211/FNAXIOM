@@ -12,9 +12,9 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-6 flex items-center justify-between">
-          <a href="#home" className="text-white">HOME</a>
-          <a href="#about" className="text-white">ABOUT</a> 
-          <a href="#to" className="text-white">TO</a> 
+          <a href="#home" className="text-white hover:scale-95 transition-all duration-200 ease-in">HOME</a>
+          <a href="#about" className="text-white hover:scale-95 transition-all duration-200 ease-in">ABOUT</a> 
+          <a href="#to" className="text-white hover:scale-95 transition-all duration-200 ease-in">TO</a> 
         </div>
 
         <div>
@@ -23,12 +23,13 @@ const Navbar = () => {
 
         <div className='flex items-center gap-6'>
             <a href="#horses" className="text-white">
-                <div className='button_border px-3 py-2 rounded-full'>
+                <div className='rounded-full px-5 py-2 bg-gradient-to-r from-blue-500 to-red-500 hover:scale-90 transition-all duration-200 ease-in'>
                     Hello
                 </div>
             </a>
             <a href="#horses" className="text-white">
-                <div className='button_border px-3 py-2 rounded-full flex gap-2 items-center text-[14px]'>
+                <div className='rounded-full px-3 py-2  flex gap-2 items-center bg-gradient-to-r from-blue-500 to-red-500 text-[14px]
+                hover:scale-90 transition-all duration-200 ease-in'>
                     Welcome
                     <FaArrowRight/>
                 </div>

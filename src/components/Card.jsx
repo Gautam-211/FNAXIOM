@@ -3,8 +3,8 @@ import React from 'react'
 const Card = ({card}) => {
   return (
     <div className='flex flex-col gap-4 px-2 py-3 items-center text-center w-fit text-white
-    inset-0 bg-white bg-opacity-20 backdrop-blur-md
-    shadow-2xl rounded-2xl cursor-pointer'>
+    inset-0 bg-white bg-opacity-10 backdrop-blur-md
+    shadow-4xl rounded-2xl cursor-pointer'>
         <div className='text-2xl handlee-regular'>
             {card.heading}
         </div>
