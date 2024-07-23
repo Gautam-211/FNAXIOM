@@ -51,7 +51,7 @@ export function login(email, password, navigate) {
         // dispatch(setToken(response.data.token))
         // dispatch(setLoggedIn(true))
         // dispatch(setUser({ ...response.data.user, image: userImage }))
-        dispatch(setLoggedIn(true))
+        // dispatch(setLoggedIn(true))
         
         localStorage.setItem("token", JSON.stringify(response.data.token))
         // localStorage.setItem("user", JSON.stringify(response.data.user))
