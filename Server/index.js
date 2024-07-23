@@ -41,6 +41,6 @@ app.get("/", (req,res) => {
 })
 
 //start the server
-app.listen("https://fnaxiom-fbl3.vercel.app/", () => {
+app.listen(PORT, () => {
     console.log(`App is running at PORT no. - ${PORT}`)
 })
